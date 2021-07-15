@@ -10,9 +10,11 @@ namespace LessonBasic
 public class Player : MonoBehaviour
 {
 
-     [SerializeField]  int speedMove;
-    // Start is called before the first frame update
-    void Start()
+     [SerializeField]  int speedMove1;
+        [SerializeField] int speedForce;
+
+        // Start is called before the first frame update
+        void Start()
     {
         
     }
